@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -21,20 +22,39 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- name: Tanmy, Tasmuna
+  schemaKey: Person
+- name: Wang, Huimei
+  schemaKey: Person
 dateCreated: '2026-11-13T18:35:30.892871+00:00'
 description: This dataset contains microscopy images, electrophysiological recordings,
   and associated metadata supporting the findings that calcium signaling mediated
   by various transmitter receptors downregulates during development in MNTB neurons.
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: 25-07-427
+  schemaKey: EthicsApproval
 id: DANDI:002058/draft
 identifier: DANDI:002058
+keywords:
+- medial nucleus of trapezoid body, calcium imaging, neuronal development, glutamate
+  receptors, sound localization circuit
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002058/versions/draft/assets/
 name: Development of calcium signaling in postsynaptic neurons of the medial nucleus
   of the trapezoid body in the mouse
+protocol:
+- https://doi.org/10.1007/s10162-026-01066-8
+relatedResource:
+- {}
+- relation: dcite:IsCitedBy
+  schemaKey: Resource
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/002058/draft
 version: draft
+wasGeneratedBy: []
