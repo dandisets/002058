@@ -20,9 +20,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 304812504
-  numberOfFiles: 2
-  numberOfSubjects: 2
+  numberOfBytes: 5151052138
+  numberOfFiles: 3
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -69,10 +69,7 @@ name: Development of calcium signaling in postsynaptic neurons of the medial nuc
   of the trapezoid body in the mouse
 protocol:
 - https://doi.org/10.1007/s10162-026-01066-8
-relatedResource:
-- {}
-- relation: dcite:IsCitedBy
-  schemaKey: Resource
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
